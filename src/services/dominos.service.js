@@ -87,3 +87,136 @@ export function obtenerMasasDePizzas() {
         }
     ]
 }
+
+export function obtenerProductos(){
+    return [        
+        {
+            id:  1, 
+            nombre: "Alitas cayene", 
+            descripcion: "Salsa picosita con un toque de diferentes chiles (490 Cal)",
+            precio: 139,
+            ruta: "images/pollos/1ecf11f9-4e5d-460a-bead-521c53502a30.jpg",
+            menu: "pollos"
+        },
+        {
+            id: 2,
+            nombre: "Alitas BBQ",
+            descripcion: "Con el sabor tradicional dulce ahumado que ya canoces (490 Cal)",
+            precio: 139,
+            ruta: "images/pollos/48365980-9741-410e-87db-57b760d6c941.jpg",
+            menu: "pollos"
+        },
+        {
+            id: 3,
+            nombre: "Alitas Mango habanero",
+            descripcion: "Una mezcla picosita de sabores dulce con habanero (490 Cal)",
+            precio: 139,
+            ruta: "images/pollos/fa57713d-549f-45c8-9d5c-9ba97f103c69.jpg",
+            menu: "pollos"
+        },
+        {
+            id: 4,
+            nombre: "Alitas Naturales",
+            descripcion: "Deliciosas y horneadas con gran sabor al natural (490 Cal)",
+            precio: 139,
+            ruta: "images/pollos/61b65a6c-ae9c-44a1-8f9e-b54a0a83ffd2.jpg",
+            menu: "pollos"
+        },
+        {
+            id:  5, 
+            nombre: "Boneless Cayenne", 
+            descripcion: "Salsa picosita con un toque de diferentes chiles (360 Cal)",
+            precio: 139,
+            ruta: "images/pollos/1ecf11f9-4e5d-460a-bead-521c53502a30.jpg",
+            menu: "pollos" 
+        },
+        {
+            id: 6,
+            nombre: "Boneless BBQ",
+            descripcion: "Con el sabor tradicional dulce ahumado que ya canoces (390 Cal)",
+            precio: 139,
+            ruta: "images/pollos/0287fd68-2857-418e-b672-64a253107531.jpg",
+            menu: "pollos"
+        },
+        {
+            id: 7,
+            nombre: "Boneless Mango habanero",
+            descripcion: "Una mezcla picosita de sabores dulce con habanero (390 Cal)",
+            precio: 139,
+            ruta: "images/pollos/09959116-b5ef-4bbf-802f-85c57025226e.jpg",
+            menu: "pollos"
+        },
+        {
+            id: 8,
+            nombre: "Boneless Naturales",
+            descripcion: "Deliciosas y horneadas con gran sabor al natural (490 Cal)",
+            precio: 139,
+            ruta: "images/pollos/fafc0900-9fb2-4c12-9a85-f15830e0bfd0.jpg",
+            menu: "pollos"
+        },
+        {
+            id: 9, 
+            nombre: "Papotas", 
+            descripcion: "Gajos de papa horneada, con un toque picosito(250 Cal)",
+            precio:79, 
+            ruta: "images/adicionale/f1dfde0b-b388-4b7f-9a56-f9f1df41d11b.jpg",
+            menu: "adicionales"
+        },
+        {
+            id: 10, 
+            nombre: "Cheesy Bread", 
+            descripcion: "Delicioso pan horneado relleno de queso crema y mozzarella gratinado con queso mozzarella, cheddar y parmesano",
+            precio: 99, 
+            ruta: "images/adicionale/893340b6-16ab-4d86-90a3-6ea90d31edb6.jpg",
+            menu: "adicionales"
+        },
+        {
+            id: 11, 
+            nombre: "Cheesy Bread chorizo jalapeño", 
+            descripcion: "Delicioso pan horneado al momento, relleno de queso crema, queso mozzarella, chorizo y jalapeño con un toque de finas hierbas. Gratinado con una capa de queso mozzarella, cheddar y parmesano",
+            precio: 99, 
+            ruta: "images/adicionale/7decf559-592d-4891-b655-95284358b2c5.jpg",
+            menu: "adicionales"
+        },
+        {
+            id: 12, 
+            nombre: "Mango Habanero", 
+            descripcion: "Gajos de papa horneada, con un toque picosito(250 Cal)",
+            precio:79, 
+            ruta: "images/adicionale/12a5d87c-d067-47d1-a445-db77a2fbf557.jpg",
+            menu: "adicionales"
+        },
+        {
+            id: 13, 
+            nombre: "Cheespeño", 
+            descripcion: "Dip sabor queso con jalapeño (213 kcal)",
+            precio: 20, 
+            ruta: "images/adicionale/32996a18-c4d4-4e54-bc94-03b4db402038.jpg",
+            menu: "adicionales"
+        },
+        {
+            id: 14, 
+            nombre: "Brava", 
+            descripcion: "Salsa picante (21.8 kcal)",
+            precio: 20, 
+            ruta: "images/adicionale/10716b71-e4b6-4875-831f-57d934290e51.jpg",
+            menu: "adicionales"
+        },
+        {
+            id: 15, 
+            nombre: "BBQ", 
+            descripcion: "Salsa de chiles con especias (31.4 kcal) ",
+            precio: 20, 
+            ruta: "images/adicionale/5406d44a-5607-44b0-876d-7bb931d3a28d.jpg",
+            menu: "adicionales"
+        },
+        {
+            id: 16, 
+            nombre: "Ranch", 
+            descripcion: "Aderezo sabor queso parmesano y ajo (203.3 kcal)",
+            precio: 20, 
+            ruta: "images/adicionales/9c5ab2c7-14cb-4cdd-8e6a-7b836ceb1411.jpg",
+            menu: "adicionales"
+        },
+    ]
+}

@@ -1,5 +1,5 @@
 import express from 'express'
-import { obtenerMasasDePizzas, obtenerMenus, obtenerPizzas, obtenerTamaniosDePizzas } from './services/dominos.service.js'
+import { obtenerMasasDePizzas, obtenerMenus, obtenerPizzas, obtenerProductos, obtenerTamaniosDePizzas } from './services/dominos.service.js'
 const app = express();
 
 app.get('/', (req, res) => {
@@ -26,19 +26,16 @@ app.get("/api/pizzas/masas", (req, res) => {
     res.status(200).json(json)
 })
 
-app.get("/api/dips", (req, res) => {
-    
-    res.status(200).json("En contrucción")
-})
-
 app.get("/api/pollos", (req, res) => {
-    
-    res.status(200).json("En contrucción")
+    let lista = obtenerProductos()
+    lista = lista.filter(x => x.menu == "pollos")
+    res.status(200).json(lista)
 })
 
 app.get("/api/adicionales", (req, res) => {
-    
-    res.status(200).json("En contrucción")
+    let lista = obtenerProductos()
+    lista = lista.filter(x => x.menu == "adicionales")
+    res.status(200).json(lista)
 })
 
 app.get("/api/bebidas", (req, res) => {
